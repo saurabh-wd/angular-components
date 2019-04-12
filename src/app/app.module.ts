@@ -9,6 +9,7 @@ import { LineChartComponent } from './components/line-chart/line-chart.component
 import { WjGridModule } from 'wijmo/wijmo.angular2.grid';
 import { WjChartModule } from 'wijmo/wijmo.angular2.chart';
 import { WijmoGridComponent } from './components/wijmo-grid/wijmo-grid.component';
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { WijmoGridComponent } from './components/wijmo-grid/wijmo-grid.component
     ReactiveFormsModule,
     ChartModule,
     WjGridModule,
-    WjChartModule
+    WjChartModule,
+    BsDatepickerModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -1,0 +1,17 @@
+<div style="text-align:center">
+<div class="App-panel">
+  <wj-flex-grid class="tcGrid" [itemsSource]="data">
+    <!-- <wj-flex-grid-column [header]="'Country'" [binding]="'country'" [visible]="true"></wj-flex-grid-column>
+    <wj-flex-grid-column [header]="Eales" [binding]="'sales'"></wj-flex-grid-column>
+    <wj-flex-grid-column [header]="'Expenses'" [binding]="'expenses'" [visible]="'true'"></wj-flex-grid-column>
+    <wj-flex-grid-column [header]="'Downloads'" [binding]="'downloads'" [visible]="'true'"></wj-flex-grid-column> -->
+  </wj-flex-grid>
+  <wj-flex-chart [itemsSource]="data" [bindingX]="'country'">
+    <wj-flex-chart-series [binding]="'sales'" [name]="'Sales'">
+    </wj-flex-chart-series>
+    <wj-flex-chart-series [binding]="'expenses'" [name]="'Expenses'">
+    </wj-flex-chart-series>
+    <wj-flex-chart-series [binding]="'downloads'" [name]="'Downloads'">
+    </wj-flex-chart-series>
+  </wj-flex-chart>
+</div>

@@ -1,0 +1,13 @@
+@import "wijmo/styles/wijmo.css";
+
+
+	.App-panel {
+	    margin: 0 48pt;
+	    text-align: center;
+	  }
+    .App-panel .wj-control {
+      display: inline-block;
+      width: 400px;
+      height: 300px;
+      vertical-align: top;
+    }

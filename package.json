@@ -26,6 +26,7 @@
     "highcharts": "^6.2.0",
     "rxjs": "^6.0.0",
     "rxjs-compat": "^6.4.0",
+    "wijmo": "^5.20183.568",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {

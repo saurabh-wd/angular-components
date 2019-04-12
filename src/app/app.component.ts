@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import {TypeAheadComponent} from './components/type-ahead/type-ahead.component'
 
 @Component({
   selector: 'app-root',

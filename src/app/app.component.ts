@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {TypeAheadComponent} from './components/type-ahead/type-ahead.component'
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  protected data = [1, 2, 3];
+  display(msg){
+	console.log(msg);
+  }
 }
